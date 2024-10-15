@@ -1,0 +1,9 @@
+type Pet @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Name: String!
+  About: String!
+  Age: Int!
+  Breed: String!
+  Colour: String!
+  Image: String!
+}
